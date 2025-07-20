@@ -3,8 +3,8 @@ name: AI Content Automation
 # Schedule the workflow to run automatically
 on:
   schedule:
-    # Run at 2:05 AM Bangladesh Time (8:05 PM UTC) - TEST
-    - cron: '5 20 * * *'
+    # Run at 2:25 AM Bangladesh Time (8:25 PM UTC) - TEST
+    - cron: '25 20 * * *'
     # Alternative schedules (commented out):
     # - cron: '0 */6 * * *'   # Every 6 hours (4 times per day)
     # - cron: '0 9 * * *'     # Daily at 9 AM UTC
